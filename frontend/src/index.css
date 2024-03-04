@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .inputStyles {
+    @apply capitalize  p-4 flex justify-between space-x-5 w-full items-center;
+  }
+  .inputsSeg {
+    @apply border-2 border-black rounded-md h-8 indent-2;
+  }
+}
